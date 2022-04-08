@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <dependecies>
 
-	<!-- Redis³Ö¾Ã»¯-->
+	<!-- RedisæŒä¹…åŒ–-->
     <dependency>
       <groupId>redis.clients</groupId>
       <artifactId>jedis</artifactId>
@@ -9,14 +9,14 @@
     </dependency>
 
 	<!-- pool2 -->
-	<dependency>
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-pool2</artifactId>
       <version>2.7.0</version>
-	</dependency>
+    </dependency>
 
 
-    <!--json½âÎö-->
+    <!--jsonè§£æž-->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
@@ -34,27 +34,27 @@
     </dependency>
 
 	<!-- dbutils -->
-	<dependency>
+    <dependency>
       <groupId>commons-dbutils</groupId>
       <artifactId>commons-dbutils</artifactId>
       <version>1.6</version>
-	</dependency>
+    </dependency>
 
 	<!-- beanutils -->
-	<dependency>
+    <dependency>
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
       <version>1.9.3</version>
-	</dependency>
+    </dependency>
 
 	<!-- logging -->
-	<dependency>
+    <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
-	</dependency>
+    </dependency>
 
-	<!--ÎÄ¼þÉÏ´«-->
+	<!--æ–‡ä»¶ä¸Šä¼ -->
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
@@ -66,7 +66,7 @@
       <version>2.4</version>
     </dependency>
 
-	<!--¿ç·þÎñÆ÷ÉÏ´«-->
+	<!--è·¨æœåŠ¡å™¨ä¸Šä¼ -->
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-core</artifactId>
@@ -79,39 +79,39 @@
     </dependency>
 
 
-	<!-- dom4j½âÎö -->
-	<dependency>
+	<!-- dom4jè§£æž -->
+    <dependency>
       <groupId>dom4j</groupId>
       <artifactId>dom4j</artifactId>
       <version>1.6.1</version>
-	</dependency>
+    </dependency>
 
 
-<!-- start  ###############    ssm¿ò¼ÜÕûºÏ    ###############   start   -->
+<!-- start  ###############    ssmæ¡†æž¶æ•´åˆ    ###############   start   -->
 
-	<!-- SpringºËÐÄ -->
-	<dependency>
-	  <groupId>org.springframework</groupId>
-	  <artifactId>spring-context</artifactId>
+    <!-- Springæ ¸å¿ƒ -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
       <version>5.1.5.RELEASE</version>
     </dependency>
 
-	<!-- Spring AOP -->
-	<dependency>
+    <!-- Spring AOP -->
+    <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
       <version>${spring.version}</version>
     </dependency>
 
-	<!-- Spring AOP ½âÎö -->
+	<!-- Spring AOP è§£æž -->
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
       <version>1.9.4</version>
     </dependency>
 
-	<!-- springÕûºÏmvc -->
-	<dependency>
+    <!-- springæ•´åˆmvc -->
+    <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
       <version>5.1.5.RELEASE</version>
@@ -122,44 +122,44 @@
       <version>5.1.5.RELEASE</version>
     </dependency>
 
-	<!-- SpringÕûºÏjunit -->
+    <!-- Springæ•´åˆjunit -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <version>5.1.5.RELEASE</version>
     </dependency>
 
-	<!-- junitµ¥Ôª²âÊÔ -->
-	<dependency>
+    <!-- junitå•å…ƒæµ‹è¯• -->
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
 
-	<!-- mysqlÇý¶¯°ü -->
-	<dependency>
-		<groupId>mysql</groupId>
-		<artifactId>mysql-connector-java</artifactId>
-		<version>5.1.38</version>
-	</dependency>
-
-	<!-- Spring Jdbc -->
+    <!-- mysqlé©±åŠ¨åŒ… -->
     <dependency>
-	  <groupId>org.springframework</groupId>
-	  <artifactId>spring-jdbc</artifactId>
-	  <version>5.1.5.RELEASE</version>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.38</version>
     </dependency>
 
-	<!-- SpringÊÂÎñ -->
+    <!-- Spring Jdbc -->
     <dependency>
-	  <groupId>org.springframework</groupId>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>5.1.5.RELEASE</version>
+    </dependency>
+
+    <!-- Springäº‹åŠ¡ -->
+    <dependency>
+      <groupId>org.springframework</groupId>
       <artifactId>spring-tx</artifactId>
       <version>5.1.5.RELEASE</version>
     </dependency>
 
-	<!-- JavaWeb tomcat-->
-	<dependency>
+    <!-- JavaWeb tomcat-->
+    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
@@ -172,14 +172,14 @@
       <scope>provided</scope>
     </dependency>
 	
-	<!-- jstl±êÇ©¿â -->
+	<!-- jstlæ ‡ç­¾åº“ -->
     <dependency>
       <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
 
-	<!-- log start -->
+    <!-- log start -->
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
@@ -197,30 +197,30 @@
     </dependency>
     <!-- log end -->
 
-	<!-- mybatis¿ò¼Ü -->
-	<dependency>
+    <!-- mybatisæ¡†æž¶ -->
+    <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>3.4.6</version>
     </dependency>
 
-	<!-- SpringÕûºÏmybatis -->
-	<dependency>
+    <!-- Springæ•´åˆmybatis -->
+    <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
       <version>1.3.2</version>
     </dependency>
 
-	<!-- c3p0Á¬½Ó³Ø -->
-	<dependency>
+	<!-- c3p0è¿žæŽ¥æ±  -->
+    <dependency>
       <groupId>c3p0</groupId>
       <artifactId>c3p0</artifactId>
       <version>0.9.1.2</version>
-	  <type>jar</type>
+      <type>jar</type>
       <scope>compile</scope>
     </dependency>
 
-<!--  end   ###############    ssm¿ò¼ÜÕûºÏ    ###############    end    -->
+<!--  end   ###############    ssmæ¡†æž¶æ•´åˆ    ###############    end    -->
 
 
 
