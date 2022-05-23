@@ -2,6 +2,7 @@
 
 ```bash
 tar -zxvf  *.tar.gz
+mv jdk1.8.0_321/ /usr/local/java
 ```
 
 
@@ -16,7 +17,7 @@ vim /etc/profile
 
 ```bash
 # set java environment
-JAVA_HOME=/root/develop/jdk1.8.0_321
+JAVA_HOME=/usr/local/java
 CLASSPATH=.:$JAVA_HOME/lib.tools.jar
 PATH=$JAVA_HOME/bin:$PATH
 export JAVA_HOME CLASSPATH PATH

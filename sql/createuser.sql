@@ -1,0 +1,3 @@
+CREATE USER 'test' @'%' IDENTIFIED BY 'test';
+GRANT ALL PRIVILEGES ON mydb.* TO test @'%';
+FLUSH PRIVILEGES;
